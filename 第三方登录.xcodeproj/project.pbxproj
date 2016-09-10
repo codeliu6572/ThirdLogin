@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45CE80AC1766C902DC845D70 /* libPods-第三方登录.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5D93F76071E095A9CB9F0F /* libPods-第三方登录.a */; };
 		68A0A4FB1D8395C2004258D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A0A4FA1D8395C2004258D3 /* main.m */; };
 		68A0A4FE1D8395C2004258D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A0A4FD1D8395C2004258D3 /* AppDelegate.m */; };
 		68A0A5011D8395C2004258D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A0A5001D8395C2004258D3 /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		68A0A5091D8395C2004258D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A0A5071D8395C2004258D3 /* LaunchScreen.storyboard */; };
 		68A0A5141D8395C2004258D3 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A0A5131D8395C2004258D3 /* _____Tests.m */; };
 		68A0A51F1D8395C2004258D3 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A0A51E1D8395C2004258D3 /* _____UITests.m */; };
+		68A0A52D1D839831004258D3 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A0A52C1D839831004258D3 /* libicucore.tbd */; };
+		68A0A52F1D83983F004258D3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A0A52E1D83983F004258D3 /* libz.tbd */; };
+		68A0A5311D839847004258D3 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A0A5301D839847004258D3 /* libstdc++.tbd */; };
+		68A0A5331D839850004258D3 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A0A5321D839850004258D3 /* JavaScriptCore.framework */; };
+		68A0A5351D83985B004258D3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A0A5341D83985B004258D3 /* ImageIO.framework */; };
+		68A0A5371D839864004258D3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A0A5361D839864004258D3 /* libsqlite3.tbd */; };
+		C8452C681E294F27CDFA7987 /* libPods-第三方登录Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B084885CDD9ABA1A19863A4 /* libPods-第三方登录Tests.a */; };
+		CFD9BDBC723CD0C3907E961C /* libPods-第三方登录UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114520E601B1259F1A0CA908 /* libPods-第三方登录UITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		114520E601B1259F1A0CA908 /* libPods-第三方登录UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-第三方登录UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5D93F76071E095A9CB9F0F /* libPods-第三方登录.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-第三方登录.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE45075E2BB313ADCEF2E9D /* Pods-第三方登录UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-第三方登录UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-第三方登录UITests/Pods-第三方登录UITests.release.xcconfig"; sourceTree = "<group>"; };
+		67D5F14A21D4C97141BDB0EE /* Pods-第三方登录.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-第三方登录.release.xcconfig"; path = "Pods/Target Support Files/Pods-第三方登录/Pods-第三方登录.release.xcconfig"; sourceTree = "<group>"; };
 		68A0A4F61D8395C2004258D3 /* 第三方登录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第三方登录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A0A4FA1D8395C2004258D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68A0A4FC1D8395C2004258D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,17 @@
 		68A0A51A1D8395C2004258D3 /* 第三方登录UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "第三方登录UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A0A51E1D8395C2004258D3 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		68A0A5201D8395C2004258D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68A0A52C1D839831004258D3 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		68A0A52E1D83983F004258D3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		68A0A5301D839847004258D3 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		68A0A5321D839850004258D3 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		68A0A5341D83985B004258D3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		68A0A5361D839864004258D3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6B084885CDD9ABA1A19863A4 /* libPods-第三方登录Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-第三方登录Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E561A1B4953C25922D7988 /* Pods-第三方登录.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-第三方登录.debug.xcconfig"; path = "Pods/Target Support Files/Pods-第三方登录/Pods-第三方登录.debug.xcconfig"; sourceTree = "<group>"; };
+		C248FA52C63EA45866A0DCA3 /* Pods-第三方登录Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-第三方登录Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-第三方登录Tests/Pods-第三方登录Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CAAD488B039293D4ABD59E3F /* Pods-第三方登录Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-第三方登录Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-第三方登录Tests/Pods-第三方登录Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E56A6ED6F060910AB9DBE248 /* Pods-第三方登录UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-第三方登录UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-第三方登录UITests/Pods-第三方登录UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A0A5371D839864004258D3 /* libsqlite3.tbd in Frameworks */,
+				68A0A5351D83985B004258D3 /* ImageIO.framework in Frameworks */,
+				68A0A5331D839850004258D3 /* JavaScriptCore.framework in Frameworks */,
+				68A0A5311D839847004258D3 /* libstdc++.tbd in Frameworks */,
+				68A0A52F1D83983F004258D3 /* libz.tbd in Frameworks */,
+				68A0A52D1D839831004258D3 /* libicucore.tbd in Frameworks */,
+				45CE80AC1766C902DC845D70 /* libPods-第三方登录.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8452C681E294F27CDFA7987 /* libPods-第三方登录Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +104,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD9BDBC723CD0C3907E961C /* libPods-第三方登录UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11536E9BC59A88488643D332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68A0A5361D839864004258D3 /* libsqlite3.tbd */,
+				68A0A5341D83985B004258D3 /* ImageIO.framework */,
+				68A0A5321D839850004258D3 /* JavaScriptCore.framework */,
+				68A0A5301D839847004258D3 /* libstdc++.tbd */,
+				68A0A52E1D83983F004258D3 /* libz.tbd */,
+				68A0A52C1D839831004258D3 /* libicucore.tbd */,
+				2E5D93F76071E095A9CB9F0F /* libPods-第三方登录.a */,
+				6B084885CDD9ABA1A19863A4 /* libPods-第三方登录Tests.a */,
+				114520E601B1259F1A0CA908 /* libPods-第三方登录UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		68A0A4ED1D8395C2004258D3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +134,8 @@
 				68A0A5121D8395C2004258D3 /* 第三方登录Tests */,
 				68A0A51D1D8395C2004258D3 /* 第三方登录UITests */,
 				68A0A4F71D8395C2004258D3 /* Products */,
+				A2EC776777C44AB8D68B52F7 /* Pods */,
+				11536E9BC59A88488643D332 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +191,19 @@
 			path = "第三方登录UITests";
 			sourceTree = "<group>";
 		};
+		A2EC776777C44AB8D68B52F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92E561A1B4953C25922D7988 /* Pods-第三方登录.debug.xcconfig */,
+				67D5F14A21D4C97141BDB0EE /* Pods-第三方登录.release.xcconfig */,
+				CAAD488B039293D4ABD59E3F /* Pods-第三方登录Tests.debug.xcconfig */,
+				C248FA52C63EA45866A0DCA3 /* Pods-第三方登录Tests.release.xcconfig */,
+				E56A6ED6F060910AB9DBE248 /* Pods-第三方登录UITests.debug.xcconfig */,
+				5AE45075E2BB313ADCEF2E9D /* Pods-第三方登录UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68A0A5231D8395C2004258D3 /* Build configuration list for PBXNativeTarget "第三方登录" */;
 			buildPhases = (
+				54C88E90A759FD784C8CB1DA /* [CP] Check Pods Manifest.lock */,
 				68A0A4F21D8395C2004258D3 /* Sources */,
 				68A0A4F31D8395C2004258D3 /* Frameworks */,
 				68A0A4F41D8395C2004258D3 /* Resources */,
+				0302D0B0C29E678E8E2A4A5A /* [CP] Embed Pods Frameworks */,
+				FA596846BCB1DE4A942C61E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68A0A5261D8395C2004258D3 /* Build configuration list for PBXNativeTarget "第三方登录Tests" */;
 			buildPhases = (
+				FB3A2350A5CE8D38CC2A66D2 /* [CP] Check Pods Manifest.lock */,
 				68A0A50B1D8395C2004258D3 /* Sources */,
 				68A0A50C1D8395C2004258D3 /* Frameworks */,
 				68A0A50D1D8395C2004258D3 /* Resources */,
+				11153CAA1D084DAFF6891177 /* [CP] Embed Pods Frameworks */,
+				EA650854CB840C60B4B2B776 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68A0A5291D8395C2004258D3 /* Build configuration list for PBXNativeTarget "第三方登录UITests" */;
 			buildPhases = (
+				4F6FD926FE7034C1A903BDEC /* [CP] Check Pods Manifest.lock */,
 				68A0A5161D8395C2004258D3 /* Sources */,
 				68A0A5171D8395C2004258D3 /* Frameworks */,
 				68A0A5181D8395C2004258D3 /* Resources */,
+				F28BBE0FBEA8B24A9F554E2A /* [CP] Embed Pods Frameworks */,
+				3FD2074C9A042ECBB0EE684A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +280,7 @@
 				TargetAttributes = {
 					68A0A4F51D8395C2004258D3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B2P95ADDC5;
 					};
 					68A0A50E1D8395C2004258D3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -264,6 +338,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0302D0B0C29E678E8E2A4A5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-第三方登录/Pods-第三方登录-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11153CAA1D084DAFF6891177 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-第三方登录Tests/Pods-第三方登录Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FD2074C9A042ECBB0EE684A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-第三方登录UITests/Pods-第三方登录UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F6FD926FE7034C1A903BDEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54C88E90A759FD784C8CB1DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA650854CB840C60B4B2B776 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-第三方登录Tests/Pods-第三方登录Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F28BBE0FBEA8B24A9F554E2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-第三方登录UITests/Pods-第三方登录UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA596846BCB1DE4A942C61E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-第三方登录/Pods-第三方登录-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3A2350A5CE8D38CC2A66D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68A0A4F21D8395C2004258D3 /* Sources */ = {
@@ -411,28 +623,39 @@
 		};
 		68A0A5241D8395C2004258D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E561A1B4953C25922D7988 /* Pods-第三方登录.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "第三方登录/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		68A0A5251D8395C2004258D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D5F14A21D4C97141BDB0EE /* Pods-第三方登录.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "第三方登录/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		68A0A5271D8395C2004258D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAAD488B039293D4ABD59E3F /* Pods-第三方登录Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "第三方登录Tests/Info.plist";
@@ -445,6 +668,7 @@
 		};
 		68A0A5281D8395C2004258D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C248FA52C63EA45866A0DCA3 /* Pods-第三方登录Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "第三方登录Tests/Info.plist";
@@ -457,6 +681,7 @@
 		};
 		68A0A52A1D8395C2004258D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56A6ED6F060910AB9DBE248 /* Pods-第三方登录UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "第三方登录UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -468,6 +693,7 @@
 		};
 		68A0A52B1D8395C2004258D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE45075E2BB313ADCEF2E9D /* Pods-第三方登录UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "第三方登录UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +722,7 @@
 				68A0A5251D8395C2004258D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68A0A5261D8395C2004258D3 /* Build configuration list for PBXNativeTarget "第三方登录Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +731,7 @@
 				68A0A5281D8395C2004258D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68A0A5291D8395C2004258D3 /* Build configuration list for PBXNativeTarget "第三方登录UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +740,7 @@
 				68A0A52B1D8395C2004258D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
